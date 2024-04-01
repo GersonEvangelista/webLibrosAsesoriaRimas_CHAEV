@@ -1,0 +1,35 @@
+/*PARA MOVILES*/
+@media (max-width: 760px){
+
+  /*Section*/
+  .showcase img{
+    width: 50%;
+    height: 10%;
+  }
+
+  .showcase{
+    columns: 2;
+  }
+
+  .booksLogo{
+    display: none;
+  }
+
+    /*footer*/
+    a img{
+        width: 22%;
+        height: 15%;
+        border-radius: 30%;
+    }
+
+    .payments img{
+        width: 22%;
+        height: 15%;
+        border-radius: 30%;
+    }
+
+    .row{
+        columns: 3;
+    }
+
+    }

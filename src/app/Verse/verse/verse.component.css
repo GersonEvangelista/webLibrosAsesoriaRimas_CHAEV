@@ -1,0 +1,108 @@
+/*section*/
+.information{
+  columns: 2;
+  text-align: center;
+  margin-left: 7%;
+}
+
+.poetry{
+  margin-top: 5%;
+  color: white;
+  text-align: center;
+}
+
+#welcome{
+  margin-top: 17%;
+}
+
+article p{
+  padding-top: 3%;
+  color: white;
+  font-size: 140%;
+  margin: 5% 5%;
+}
+
+article h2,.search h2,.imgs h2{
+  color: white;
+}
+
+article img{
+  padding-top: 8%;
+  width: 50%;
+  border-radius: 20%;
+}
+
+ul{
+  color: white;
+  list-style: none;
+}
+
+.search{
+  text-align: center;
+  margin: 5%;
+}
+
+.imgs{
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.imgs img{
+  margin-top: 1%;
+  width: 4%;
+  border-radius: 10%;
+}
+
+
+/*Footer*/
+footer{
+  margin-top: 5%;
+  background: linear-gradient(rgba(15,20,35,10),rgba(25,35,150,2));
+  border-radius: 10px;
+}
+
+.row p{
+  color: white;
+}
+
+a img{
+  width: 45px;
+  height: 50px;
+  border-radius: 30%;
+  background: none;
+  margin: 3px 8px;
+}
+
+.payments img{
+  width: 45px;
+  height: 50px;
+  border-radius: 30%;
+  background: none;
+  margin: 3px 8px;
+}
+
+.row{
+  columns: 3;
+}
+
+.contact,.payments,.socialMedia,.author{
+  text-align: center;
+  padding-top: 5px;
+}
+
+.socialMedia a{
+  cursor: pointer;
+}
+
+.author small{
+  color: white;
+}
+
+.author{
+  margin-bottom: 20px;
+}
+
+
+
+
+

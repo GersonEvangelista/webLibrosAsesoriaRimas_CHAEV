@@ -1,0 +1,35 @@
+  <mat-toolbar-row class="spacer">
+    <div class="navbar">
+      <img src="./../../../assets/IMGLOG/logo.png" class="logo" alt="Main Logo" routerLink="/book">
+      <ul>
+        <li>
+          <a  routerLink='/book' mat-list-item>
+            <mat-icon> book </mat-icon>
+            Libros</a>
+        </li>
+        <li>
+          <a  routerLink='/asesory' mat-list-item>
+            <mat-icon> people </mat-icon>
+            Matemática coach</a>
+        </li>
+        <li>
+          <a  routerLink='/verse' mat-list-item>
+            <mat-icon> border_color </mat-icon>
+            Rimas personalizadas</a>
+        </li>
+      </ul>
+    </div>
+  </mat-toolbar-row>
+
+<div class="containerMobile">
+  <img src="./../../../assets/IMGLOG/logo.png" class="logo" alt="Main Logo">
+
+  <mat-tab-group (selectedTabChange)="tabChanged($event)" class="barMobile">
+    <mat-tab label="Libros"></mat-tab>
+    <mat-tab label="Matemática Coach"></mat-tab>
+    <mat-tab label="Rimas Personalizadas"></mat-tab>
+  </mat-tab-group>
+</div>
+
+
+

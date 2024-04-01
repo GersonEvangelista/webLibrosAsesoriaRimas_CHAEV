@@ -1,0 +1,22 @@
+@media(max-width: 760px) {
+  /*bar*/
+.spacer{
+  display: none;
+}
+
+.containerMobile{
+  display:block
+}
+
+.containerMobile{
+  background: linear-gradient(rgba(15,20,35,10),rgba(25,35,150,2));
+  text-align: center;
+}
+
+.containerMobile img{
+  width: 35%;
+}
+
+
+
+}

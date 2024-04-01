@@ -1,0 +1,48 @@
+/*PARA MOVILES*/
+@media (max-width: 760px){
+
+  /*Section*/
+  article img{
+    width: 80%;
+    height: 30%;
+  }
+
+  .cap{
+    display: none;
+  }
+
+  .information{
+    columns: 1;
+    margin: auto;
+  }
+
+  .information h2{
+    margin: 0% 10%;
+  }
+
+  #welcome{
+    margin-top: 5%;
+  }
+
+  .imgs h2{
+    margin: 0% 5%;
+  }
+
+    /*footer*/
+    a img{
+        width: 22%;
+        height: 15%;
+        border-radius: 30%;
+    }
+
+    .payments img{
+        width: 22%;
+        height: 15%;
+        border-radius: 30%;
+    }
+
+    .row{
+        columns: 3;
+    }
+
+    }

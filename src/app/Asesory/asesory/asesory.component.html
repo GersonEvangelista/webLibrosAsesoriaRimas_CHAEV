@@ -1,0 +1,61 @@
+<section>
+  <article>
+    <div class="information">
+      <div id="welcome">
+        <h2>¿Desafíos académicos en el colegio? ¡No te preocupes más! Estamos aquí para brindarte
+          el apoyo que necesitas y convertir esos desafíos en oportunidades de aprendizaje.
+          Además de asesorarte en tus tareas diarias, nos enfocamos en prepararte
+          para tus futuros examenes. Con nuestro enfoque práctico y orientado a resultados,
+          te daremos las herramientas y estrategias necesarias para enfrentar
+          cualquier evaluación con confianza.</h2>
+        <!--<p>Gerson Chancas Evangelista</p>-->
+      </div>
+      <div>
+        <img src="../../../assets/IMGAsesory/asesory1.jpg"/>
+      </div>
+    </div>
+  </article>
+
+    <div class="search">
+      <h2>🔎Busca aquí el curso en el que necesitas ayuda</h2><br>
+        <input type="text" [(ngModel)]="courseSearch" (keyup)="buscarCourse()">
+        <!--<button (click)="buscarCourse()">Buscar</button>-->
+        <ul *ngIf="courseSearch && coursesFiltrados.length > 0">
+          <li *ngFor="let course of coursesFiltrados">{{ course.materia }}</li>
+        </ul>
+    </div>
+
+    <div class="imgs">
+      <img src="../../../assets/IMGAsesory/cap.png" alt="Cap" class="cap">
+      <h2>Si encontraste el curso en el que necesitas ayuda. Comun&iacute;cate al siguiente n&uacute;mero</h2>
+      <a href="https://wa.me/51922044558"><img src="../../assets/IMGLOG/whatsapp.png" alt="WhatsApp"></a>
+      <h2>922044558</h2>
+    </div>
+
+
+</section>
+
+<footer>
+
+  <div class="row">
+      <div class="socialMedia">
+        <p><strong>WhatsApp</strong></p>
+        <a href="https://wa.me/51922044558"><img src="../../assets/IMGLOG/whatsapp.png" alt="WhatsApp"></a>
+      </div>
+      <div class="payments">
+          <p><strong>Medios de pago</strong></p>
+          <img src="../../assets/IMGLOG/yape.png">
+          <img src="../../assets/IMGLOG/visa.png">
+      </div>
+      <div class="contact">
+          <p><strong>Contáctame</strong></p>
+          <p>922044558</p>
+      </div>
+  </div>
+  <hr>
+  <div class="author">
+      <small>&copy; 2023 CHAEV/TODOS LOS DERECHOS RESERVADOS.</small><br><br>
+  </div>
+
+</footer>
+

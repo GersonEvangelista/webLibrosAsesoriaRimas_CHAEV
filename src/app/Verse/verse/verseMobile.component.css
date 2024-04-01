@@ -1,0 +1,39 @@
+/*PARA MOVILES*/
+@media (max-width: 760px){
+
+/*Section*/
+article img{
+  width: 80%;
+  height: 30%;
+}
+
+.information{
+  columns: 1;
+}
+
+#welcome{
+  margin: 5% 10%;
+}
+
+.poetry{
+  margin-right: 15%;
+}
+
+/*footer*/
+a img{
+ width: 22%;
+ height: 15%;
+ border-radius: 30%;
+}
+
+.payments img{
+  width: 22%;
+  height: 15%;
+  border-radius: 30%;
+}
+
+.row{
+  columns: 3;
+}
+
+}
